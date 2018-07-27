@@ -1,0 +1,23 @@
+{
+  "name": "minumum-modern-front-end-setting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run parcel:dev",
+    "parcel:dev": "npx parcel src/index.html",
+    "parcel:build": "npx parcel build src/index.html --out-dir build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-syntax-object-rest-spread": "^6.13.0",
+    "parcel-bundler": "^1.9.7",
+    "prettier": "^1.13.7",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
