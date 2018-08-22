@@ -28,3 +28,5 @@ func1(combinedObject)
 
 const mountNode = document.getElementById('app')
 ReactDOM.render(<HelloMessage name="Jane" />, mountNode)
+
+if (true === true) console.log('test')

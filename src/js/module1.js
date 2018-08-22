@@ -1,1 +1,6 @@
-const module1 = () => console.log('module1')
+const obj1 = {
+  name: 'name1',
+  age: '30', // 追いコンマ
+}
+
+

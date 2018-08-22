@@ -8,16 +8,14 @@
     "parcel:dev": "npx parcel src/index.html",
     "parcel:build": "npx parcel build src/index.html --out-dir build"
   },
-  "author": "",
+  "author": "Nakanishi, Yusuke",
   "license": "ISC",
   "dependencies": {
+    "babel-plugin-syntax-object-rest-spread": "^6.13.0",
+    "node-sass": "^4.9.3",
+    "parcel-bundler": "^1.9.7",
+    "prettier": "^1.14.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
-  },
-  "devDependencies": {
-    "node-sass": "^4.9.2",
-    "parcel-bundler": "^1.9.7",
-    "prettier": "^1.13.7",
-    "babel-polyfill": "^6.26.0"
   }
 }
